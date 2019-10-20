@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## XML Parser For Laravel Framework
+## Stream Parser For Laravel Framework
 
 > **Note:** This repository contains the core code of convert XML file to array.
 
@@ -86,7 +86,7 @@ Delegate as possible the callback execution so it doesn't blocks the document re
 
     $objXML = new XMLParser();
     $arr =  $objXML->setUrl('http://localhost/product.xml')
-                   ->parser()
+                   ->xmlParser()
                    ->mapping(
                         array(
                                 'Products' => array(
