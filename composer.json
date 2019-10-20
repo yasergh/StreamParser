@@ -1,0 +1,13 @@
+{
+    "name": "snono/stream-parser",
+    "description": "convert xml,json,csv contant to array",
+    "type": "no",
+    "authors": [
+        {
+            "name": "yaser",
+            "email": "yasergh74@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
