@@ -15,7 +15,7 @@ class XMLDocument
 
     function __construct($data)  // constructor to intialize the stack and val array
     {
-        Log::info($data);
+//        Log::info($data);
         $this->data = $data;
         $this->tagstack = array();   // contain the open tags till now
         $this->xmlvals = array();
